@@ -11,6 +11,13 @@ body{
     align-items: center;
 }
 
+button{
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 #below-cover{
     display: flex;
     flex-direction: row;
@@ -71,4 +78,8 @@ body{
     background-color: white;
     width: 50%;
     border-radius: inherit;
+}
+
+.pause{
+    display: none;
 }
